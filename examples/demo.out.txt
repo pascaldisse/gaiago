@@ -1,0 +1,13 @@
+① framing  bash result: 1889 B → 1751 B  (saved 138 B, 7.3%)
+真 bash · 行=40 · 詳=none
+1→PASS  test/suite-00.test.ts   (12 ms)
+2→PASS  test/suite-01.test.ts   (15 ms)
+3→PASS  test/suite-02.test.ts   (18 ms) 
+  …
+  decode(encode(x)) rows: 40 (normalised)
+
+② diet     old own tool call: 4525 B → 118 B
+  read({"path":"big.log"}) … [collapsed — page the original with tool_result_fetch(sessionId="ev42", entryId="tc7")]
+
+③ caryll   repetitive log: 5939 B → 900 B, 1679 → 766 tokens (2 legend entries)
+  exact round-trip: true

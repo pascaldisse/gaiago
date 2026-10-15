@@ -1,0 +1,21 @@
+{
+  "name": "gaiago",
+  "version": "0.1.0",
+  "description": "Deterministic graph notation (鳴語) for tool results and agent context: framing, context-diet decay, reversible dictionary codec.",
+  "type": "module",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "author": "Pascal Disse",
+  "scripts": {
+    "test": "bun test",
+    "check": "bunx tsc --noEmit",
+    "example": "bun run examples/demo.ts"
+  },
+  "dependencies": {
+    "gpt-tokenizer": "^3.4.0"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5.6.0"
+  }
+}
